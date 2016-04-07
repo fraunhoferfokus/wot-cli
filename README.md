@@ -79,22 +79,23 @@ After the tool is installed as described in the setup section, you can run the `
     20:39:55 *** wot ssdp advertiser is ready
     ```
 * on `pc2` run `$ wot discover`. you will see the following output in the console. The two thing descriptions advertised in previous step are discovered.
-    ```
+    ```   
     start discovery over ssdp
     20:46:23 *** wot ssdp discoverer is ready
     20:46:25 <<< Thing with TD <http://example.org/td1.jsonld> found (192.168.2.104)
     20:46:25 <<< Thing with TD <http://example.org/td2.jsonld> found (192.168.2.104)
     ```
 * on `pc1` stop advertising `CTRL+C`. you will see the following output in the console.
-    ```
+    ```   
     stop advertising. please wait ...
     20:49:47 *** wot ssdp advertiser stopped
     ```
 * on `pc2` you will see the following output in the console after stopping advertising on `pc1`.
-    ```
+    ```   
     20:49:45 <<< Thing with TD <http://example.org/td1.jsonld> disappeared (192.168.2.104)
     20:49:45 <<< Thing with TD <http://example.org/td2.jsonld> disappeared (192.168.2.104)
     ```
+    
 # contact
 
 Louay Bassbouss - Fraunhofer FOKUS
