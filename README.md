@@ -10,7 +10,7 @@ wot-cli is a command-line tool for the web of things. It supports currently adve
     ```
     $ git clone https://github.com/fraunhoferfokus/wot-cli.git
     ```
-* install dependencies. the tool defines a new command `wot`, this is why the `-g` (global) is needed. in Mac please use `sudo npm install -g`
+* install dependencies. the tool defines a new command `wot`, this is why the `-g` (global) is needed. on Mac please use `sudo npm install -g`
     ```
     $ cd wot-cli
     $ npm install -g 
@@ -54,7 +54,7 @@ After the tool is installed as described in the setup section, you can run the `
     $ wot expose -p mdns http://example.org/td.jsonld 
     ```
 * `$ wot discover -h` displays help for the `discover` command. `search` is an alias this command.
-    ``    
+    ```  
     Usage: search|discover [options] [query]      
          
     search for thing descriptions. [query] is not used yet is reserved for future use      
