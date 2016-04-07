@@ -105,7 +105,6 @@ Louay Bassbouss - Fraunhofer FOKUS
 
 louay.bassbouss@fokus.fraunhofer.de
 
-
 # license
 
 [LGPL-3.0](LICENSE)
