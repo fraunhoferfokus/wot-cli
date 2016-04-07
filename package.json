@@ -1,0 +1,29 @@
+{
+  "name": "wot-cli",
+  "version": "0.0.1",
+  "description": "A command-line tool for the Web of Things",
+  "main": "index.js",
+  "scripts": {
+    "wot": "./bin/wot.js"
+  },
+  "bin": {
+    "wot": "./index.js"
+  },
+  "repository": "https://github.com/fraunhoferfokus/wot-cli.git",
+  "keywords": [
+    "wot",
+    "cli",
+    "ssdp",
+    "mdns",
+    "discovery"
+  ],
+  "author": {
+    "name": "Louay Bassbouss",
+    "email": "louay.bassbouss@fokus.fraunhofer.de"
+  },
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "peer-ssdp": "^0.0.5"
+  }
+}
