@@ -10,7 +10,8 @@ wot-cli is a command-line tool for the web of things. It supports currently adve
     ```
     $ git clone https://github.com/fraunhoferfokus/wot-cli.git
     ```
-* install dependencies. the tool defines a new command `wot`, this is why the `-g` (global) is needed. on Mac please use `sudo npm install -g`
+* install dependencies. the tool defines a new command `wot`, this is why the `-g` (global) is needed. on Mac please use `sudo npm install -g`.
+
     ```
     $ cd wot-cli
     $ npm install -g 
